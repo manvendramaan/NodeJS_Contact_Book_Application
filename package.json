@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha",
-    "start": "node app.js" 
+    "start": "node app.js"
   },
   "author": "Manvendra",
   "license": "ISC",
@@ -16,7 +16,9 @@
     "clone": "^2.1.2",
     "cors": "^2.8.3",
     "express": "^4.14.0",
+    "jsonwebtoken": "^8.5.0",
     "mocha": "^3.2.0",
+    "morgan": "^1.9.1",
     "mysql": "^2.16.0",
     "underscore": "^1.9.1"
   },

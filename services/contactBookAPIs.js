@@ -112,11 +112,11 @@ var searchContacts = function(req, res) {
 	let keyword = '';
 	
 	if(!_u.isUndefined(req.body.limit) && req.body.limit.toString().trim() !="") {
-		limit = req.body.limit.toString().trim();	
-		limit = parseInt(limit);
+		limit = req.body.limit.toString().trim();
+		limit = parseInt(limit);		
 	}
 	if(!_u.isUndefined(req.body.offset) && req.body.offset.toString().trim() !="") {
-		offset = req.body.offset.toString().trim();
+		offset = req.body.offset.toString().trim();	 
 		offset = parseInt(offset);	
 	}
 	if(!_u.isUndefined(req.body.keyword) && req.body.keyword.toString().trim() !="") {
