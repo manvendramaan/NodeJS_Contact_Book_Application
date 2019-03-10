@@ -14,7 +14,7 @@ Deployed on <a href="https://glacial-meadow-35240.herokuapp.com/"><img width="10
 
 Get Token for Basic Authentication : 
 
-<b>API URL on Localhost :</b> http://localhost:4000/authenticate
+<b>API URL on Localhost :</b> http://localhost:4000/authenticate<br>
 <b>API URL on Heroku :</b> https://glacial-meadow-35240.herokuapp.com/authenticate
 
 <b>Method :</b> POST
