@@ -6,12 +6,14 @@ Deployed on <a href="https://glacial-meadow-35240.herokuapp.com/"><img width="10
 
 # How to run :
 
-1. Go to the project path (.../NodeJS_Contact_Book_Application) in cmd and run this command : node app
-2. Open browser and browse this url : http://localhost:4000/
+1. In MySQL server create database named contacts_app => Syntax : CREATE DATABASE contacts_app;
+2. Go to the project path (.../NodeJS_Contact_Book_Application) in cmd and run this command : node app
+3. Open browser and browse this url : http://localhost:4000/
 
 #API List :
 
-API : http://localhost:4000/_contact/storeContacts
+API URL on Localhost : http://localhost:4000/_contact/storeContacts
+API on Heroku : https://glacial-meadow-35240.herokuapp.com/_contact/storeContacts
 
 Method : POST
 
@@ -21,7 +23,8 @@ Input :
 
 ************************************************************
 
-API : http://localhost:4000/_contact/updateContacts
+API on Localhost : http://localhost:4000/_contact/updateContacts
+API on Heroku : https://glacial-meadow-35240.herokuapp.com/_contact/updateContacts
 
 Method : POST
 
@@ -31,13 +34,15 @@ Input :
 
 ************************************************************
 
-API : http://localhost:4000/_contact/deleteContacts/11
+API on Localhost : http://localhost:4000/_contact/deleteContacts/11
+API on Heroku : https://glacial-meadow-35240.herokuapp.com/_contact/deleteContacts/11
 
 Method : DELETE
 
 ************************************************************
 
-API : http://localhost:4000/_contact/searchContacts
+API on Localhost : http://localhost:4000/_contact/searchContacts
+API on Heroku : https://glacial-meadow-35240.herokuapp.com/_contact/searchContacts
 
 Method : POST
 
