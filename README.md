@@ -32,7 +32,7 @@ Get Token for Basic Authentication :
   "items":[
     {
     "message": "User Authenticated!",
-    "token": "<access_token>"
+    "token": "/<access_token>"
     }
   ]
 }</pre>
