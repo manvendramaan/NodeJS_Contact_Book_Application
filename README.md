@@ -8,7 +8,7 @@ Deployed on <a href="https://glacial-meadow-35240.herokuapp.com/"><img width="10
 
 1. Go to the project path (.../NodeJS_Contact_Book_Application) in cmd and run this command : node app
 2. Open browser and browse this url : http://localhost:4000/
-**
+
 #API List :
 
 API : http://localhost:4000/_contact/storeContacts
