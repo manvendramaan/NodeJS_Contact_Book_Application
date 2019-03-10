@@ -2,7 +2,7 @@
 
 It is a CRUD NodeJS APIs for a typical contact book app with Basic Authentication. It support adding/editing/deleting contacts from a primary storage (MySQL) and allow searching by name and email address. 
 
-Deployed on <a href="https://glacial-meadow-35240.herokuapp.com/"><img width="100" src="https://cdn-images-1.medium.com/max/1200/1*qgcaFqBSgNhsQQNpepIagA.png"/></a>
+Deployed on <a href="https://glacial-meadow-35240.herokuapp.com/"  target="_blank"><img width="100" src="https://cdn-images-1.medium.com/max/1200/1*qgcaFqBSgNhsQQNpepIagA.png"/></a>
 
 # How to run :
 
