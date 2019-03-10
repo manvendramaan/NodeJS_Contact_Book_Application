@@ -12,6 +12,37 @@ Deployed on <a href="https://glacial-meadow-35240.herokuapp.com/"><img width="10
 
 #API List :
 
+Get Token for Basic Authentication : 
+
+<b>API URL on Localhost :</b> http://localhost:4000/authenticate
+<b>API URL on Heroku :</b> https://glacial-meadow-35240.herokuapp.com/authenticate
+
+<b>Method :</b> POST
+
+<b>Input : </b>
+
+{"username":"admin","password":"admin"}
+
+<b>Response : </b>
+
+{
+  "status": "success",
+  "message": "",
+  "totalItems": 1,
+  "start": 0,
+  "end": 0,
+  "items":[
+    {
+    "message": "User Authenticated!",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGVjayI6dHJ1ZSwiaWF0IjoxNTUyMjE5MTExLCJleHAiOjE1NTIyMjA1NTF9.0UjPQhWQWQNLLK-jiyroGHLs4xiJ7WQRz2_jJWMZPes"
+    }
+  ]
+}
+
+<b>Note :</b> Use this token for Basic Authentication for accessing APIs.
+
+************************************************************
+
 <b>API URL on Localhost :</b> http://localhost:4000/_contact/storeContacts<br>
 <b>API URL on Heroku :</b> https://glacial-meadow-35240.herokuapp.com/_contact/storeContacts
 
