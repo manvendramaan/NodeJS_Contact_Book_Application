@@ -12,45 +12,45 @@ Deployed on <a href="https://glacial-meadow-35240.herokuapp.com/"><img width="10
 
 #API List :
 
-API URL on Localhost : http://localhost:4000/_contact/storeContacts<br>
-API URL on Heroku : https://glacial-meadow-35240.herokuapp.com/_contact/storeContacts
+<b>API URL on Localhost :</b> http://localhost:4000/_contact/storeContacts<br>
+<b>API URL on Heroku :</b> https://glacial-meadow-35240.herokuapp.com/_contact/storeContacts
 
-Method : POST
+<b>Method :</b> POST
 
-Input : 
-
-{"name":"Manvendra","emailId":"manvendra2215@gmail.com"}
-
-************************************************************
-
-API URL on Localhost : http://localhost:4000/_contact/updateContacts<br>
-API URL on Heroku : https://glacial-meadow-35240.herokuapp.com/_contact/updateContacts
-
-Method : POST
-
-Input : 
+<b>Input : </b>
 
 {"name":"Manvendra","emailId":"manvendra2215@gmail.com"}
 
 ************************************************************
 
-API URL on Localhost : http://localhost:4000/_contact/deleteContacts/11<br>
-API URL on Heroku : https://glacial-meadow-35240.herokuapp.com/_contact/deleteContacts/11
+<b>API URL on Localhost :</b> http://localhost:4000/_contact/updateContacts<br>
+<b>API URL on Heroku :</b> https://glacial-meadow-35240.herokuapp.com/_contact/updateContacts
 
-Method : DELETE
+<b>Method :</b> POST
+
+<b>Input :</b> 
+
+{"name":"Manvendra","emailId":"manvendra2215@gmail.com"}
 
 ************************************************************
 
-API URL on Localhost : http://localhost:4000/_contact/searchContacts<br>
-API URL on Heroku : https://glacial-meadow-35240.herokuapp.com/_contact/searchContacts
+<b>API URL on Localhost :</b> http://localhost:4000/_contact/deleteContacts/11<br>
+<b>API URL on Heroku :</b> https://glacial-meadow-35240.herokuapp.com/_contact/deleteContacts/11
 
-Method : POST
+<b>Method :</b> DELETE
 
-Input : 
+************************************************************
+
+<b>API URL on Localhost :</b> http://localhost:4000/_contact/searchContacts<br>
+<b>API URL on Heroku :</b> https://glacial-meadow-35240.herokuapp.com/_contact/searchContacts
+
+<b>Method :</b> POST
+
+<b>Input :</b> 
 
 {"keyword":"manvendra","limit":"10","offset":"0"}
 
-Note : By Default limit is 10 and offset is 0
+<b>Note :</b> By Default limit is 10 and offset is 0
 
 ************************************************************
 
