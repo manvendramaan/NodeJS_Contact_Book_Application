@@ -13,7 +13,7 @@ Deployed on <a href="https://glacial-meadow-35240.herokuapp.com/"><img width="10
 #API List :
 
 API URL on Localhost : http://localhost:4000/_contact/storeContacts<br>
-API on Heroku : https://glacial-meadow-35240.herokuapp.com/_contact/storeContacts
+API URL on Heroku : https://glacial-meadow-35240.herokuapp.com/_contact/storeContacts
 
 Method : POST
 
@@ -23,8 +23,8 @@ Input :
 
 ************************************************************
 
-API on Localhost : http://localhost:4000/_contact/updateContacts<br>
-API on Heroku : https://glacial-meadow-35240.herokuapp.com/_contact/updateContacts
+API URL on Localhost : http://localhost:4000/_contact/updateContacts<br>
+API URL on Heroku : https://glacial-meadow-35240.herokuapp.com/_contact/updateContacts
 
 Method : POST
 
@@ -34,15 +34,15 @@ Input :
 
 ************************************************************
 
-API on Localhost : http://localhost:4000/_contact/deleteContacts/11<br>
-API on Heroku : https://glacial-meadow-35240.herokuapp.com/_contact/deleteContacts/11
+API URL on Localhost : http://localhost:4000/_contact/deleteContacts/11<br>
+API URL on Heroku : https://glacial-meadow-35240.herokuapp.com/_contact/deleteContacts/11
 
 Method : DELETE
 
 ************************************************************
 
-API on Localhost : http://localhost:4000/_contact/searchContacts<br>
-API on Heroku : https://glacial-meadow-35240.herokuapp.com/_contact/searchContacts
+API URL on Localhost : http://localhost:4000/_contact/searchContacts<br>
+API URL on Heroku : https://glacial-meadow-35240.herokuapp.com/_contact/searchContacts
 
 Method : POST
 
