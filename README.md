@@ -23,7 +23,7 @@ Get Token for Basic Authentication :
 {"username":"admin","password":"admin"}
 
 <b>Response : </b>
-{
+<pre>{
   "status": "success",
   "message": "",
   "totalItems": 1,
@@ -35,7 +35,7 @@ Get Token for Basic Authentication :
     "token": "<access_token>"
     }
   ]
-}
+}</pre>
 
 <b>Note :</b> Create your own token <access_token> using this API for Basic Authentication for accessing APIs because the token expires in 24 hrs.
 
