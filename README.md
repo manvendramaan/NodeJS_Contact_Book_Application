@@ -20,11 +20,9 @@ Get Token for Basic Authentication :
 <b>Method :</b> POST
 
 <b>Input : </b>
-
 {"username":"admin","password":"admin"}
 
 <b>Response : </b>
-
 {
   "status": "success",
   "message": "",
@@ -34,12 +32,12 @@ Get Token for Basic Authentication :
   "items":[
     {
     "message": "User Authenticated!",
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGVjayI6dHJ1ZSwiaWF0IjoxNTUyMjE5MTExLCJleHAiOjE1NTIyMjA1NTF9.0UjPQhWQWQNLLK-jiyroGHLs4xiJ7WQRz2_jJWMZPes"
+    "token": "<access_token>"
     }
   ]
 }
 
-<b>Note :</b> Create your own token using this API for Basic Authentication for accessing APIs because the token expires in 24 hrs.
+<b>Note :</b> Create your own token <access_token> using this API for Basic Authentication for accessing APIs because the token expires in 24 hrs.
 
 ************************************************************
 
@@ -49,8 +47,10 @@ Get Token for Basic Authentication :
 <b>Method :</b> POST
 
 <b>Input : </b>
-
 {"name":"Manvendra","emailId":"manvendra2215@gmail.com"}
+
+<b>Header : </b>
+{"access-token":"<access_token>"}
 
 ************************************************************
 
@@ -60,8 +60,10 @@ Get Token for Basic Authentication :
 <b>Method :</b> POST
 
 <b>Input :</b> 
-
 {"name":"Manvendra","emailId":"manvendra2215@gmail.com"}
+
+<b>Header : </b>
+{"access-token":"<access_token>"}
 
 ************************************************************
 
@@ -69,6 +71,9 @@ Get Token for Basic Authentication :
 <b>API URL on Heroku :</b> https://glacial-meadow-35240.herokuapp.com/_contact/deleteContacts/11
 
 <b>Method :</b> DELETE
+
+<b>Header : </b>
+{"access-token":"<access_token>"}
 
 ************************************************************
 
@@ -78,8 +83,10 @@ Get Token for Basic Authentication :
 <b>Method :</b> POST
 
 <b>Input :</b> 
-
 {"keyword":"manvendra","limit":"10","offset":"0"}
+
+<b>Header : </b>
+{"access-token":"<access_token>"}
 
 <b>Note :</b> By Default limit is 10 and offset is 0
 
