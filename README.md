@@ -9,6 +9,7 @@ Deployed on <a href="https://glacial-meadow-35240.herokuapp.com/"  target="_blan
 1. In MySQL server create database named contacts_app <pre>CREATE DATABASE contacts_app;</pre>
 2. Go to the project path (.../NodeJS_Contact_Book_Application) in cmd and run this command : node app
 3. Open browser and browse this url : http://localhost:4000/
+4. Run the given APIs using <a href="https://www.getpostman.com/" target="_blank" >Postman</a> or any similar tool.
 
 # API List :
 
