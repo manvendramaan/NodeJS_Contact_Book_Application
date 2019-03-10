@@ -39,7 +39,7 @@ Get Token for Basic Authentication :
   ]
 }
 
-<b>Note :</b> Use this token for Basic Authentication for accessing APIs.
+<b>Note :</b> Create your own token using this API for Basic Authentication for accessing APIs because the token expires in 24 hrs.
 
 ************************************************************
 
