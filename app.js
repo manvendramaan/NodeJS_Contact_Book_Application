@@ -43,7 +43,7 @@ app.post('/authenticate',(req,res)=>{
           };
 
           var token = jwt.sign(payload, app.get('Secret'), {
-                expiresIn: 1440 // expires in 24 hours
+                expiresIn: 86400 // expires in 24 hours
 
           });
 
